@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><img src="/bus pass application/tgsrtc.png"alt="form"width="900"></center>
+    <form action="/bus pass application/submit.html"method="get">
+    <fieldset width="75%"><legend style="background-color:red">Applicant details</legend>
+    <table cellspacing="5"width="50%">
+    <tr><td><label for="first">Firstname:</label>
+    <input type="text"name="first name"id="first"></td>
+    <td><label for="last">Lastname:</label>
+    <input type="text"name="last name"id="last"></td></tr>
+    <br>    
+    <tr><td><label for="father name">Father name:</label>
+    <input type="text"name="father name"id="father"></td>
+   <td><label for="date">date of birth:</label>
+    <input type="date"name="date"id="date"></td></tr>
+    <br>
+    <tr><td>
+    <label for="male">male:</label>
+    <input type="radio"id="male"name="gender"value="male">
+    <label for="female">female:</label>
+    <input type="radio"id="female"name="gender"value="female"></td></tr>
+    <br>
+    <tr><td>
+    <label for="Aadhar number">Aadhar number:</label>
+    <input type="text"name="Aadhar number"id="num"></td>
+    <td><label for="Email.id">Email.id:</label>
+    <input type="text"name="Email.id"id="email"></td></tr>
+    <br>
+    <tr><td>
+    <label for="file">photo:</label>
+    <input type="file"name="file"id="file"></td>
+    </tr></table>
+    </fieldset>
+    <fieldset><legend style="background-color: red">Residental Details</legend>
+    <table cellspacing="5"width="50%">
+    <tr><td><label for="address">Address:</label>
+    <textarea name="select"id="address"></textarea></td>
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <td><label for="District">district:</label>
+    <select name="District"id="district">
+    <option value="Telangana">Telangana</option>
+    <option value="Andhra pradesh">Andhra pradesh</option>
+    <option value="East godavari">East godavari</option>
+    <option value="West godavari">West godavari</option>
+    </select></td></tr>
+    <br>
+    <tr>
+    <td><label for ="mandal">Mandal:</label>
+    <select name="manadal">
+    <option value="challapalli">challapalli</option>
+    <option value="machilipatnam">machilipatnam</option>
+    <option value="kaikaluru">kaikaluru</option>
+    </select></td>
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <td><label for="village">village:</label>
+    <select name="village">
+    <option value="majeru">majeru</option>
+    <option value="machilipatanam">machilipatnam</option>
+    <option value="pamaru">pamaru</option>
+    <option value="tadepalli">tadepalli</option>
+    </select></td>
+    </tr>
+    <br>
+   <tr><td><label for="pincode">pincode</label>
+    <input type="number"name="number"id="num"></td></tr></table>
+    </fieldset>
+    <fieldset><legend style="background-color:red">pass type details</legend>
+   <center><label for="route">Route:</label>
+    <br>
+    <label for="from">From</label>
+    <input type="text"name="from"id="from">
+    <label for="To">To:</label>
+    <input type="text"name="to"id="to">
+    </center>
+    <br>
+    <center>
+    <label for="via">Via</label>
+    <input type="text"name="via"id="via">
+    </center>
+    </fieldset>
+    <fieldset><legend style="background-color:red">payment</legend>
+    <center><label for="payment mode">payment mode:</label>
+    <BR>
+    <label for="upi">UPI</label>
+    <input type="radio"id="upi"name="payment mode"value="upi">
+    <label for="cash">Cash</label>
+    <input type="radio"id="cash"name="payment mode"value="cash">
+    <label for="phone pay">phone pay</label>
+    <input type="radio"id="phone pay"name="payment mode"value="phone pay">
+    </center></fieldset>
+    <center><h2><input type="submit"></h2></center>
+    </form>
+    </body>
+    </html>

@@ -1,0 +1,71 @@
+.container{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    height:100vh;
+    gap:10px;
+    background-color: black;
+    grid-template-areas:
+    "a a a b b "
+    "a a a c c"
+    "d d d d d"
+    "e f g h i"
+    
+
+}
+.item{
+    padding:10px;
+    font-size:2rem;
+    text-align:center;   
+
+}
+.diamond-shape{
+    width:30px;
+    height:30px;
+    display:flex;
+    color:black;
+    background-color:white;
+    justify-content:center;
+    align-items:center;
+    transform:rotate(45deg);
+
+}
+.diamond-shape span{
+transform: rotate(-45deg);
+}
+
+.item-1{
+    background-color:rgb(238, 10, 170);
+    grid-area:a;
+}
+.item-2{
+    background-color: rgb(49, 145, 225);
+    grid-area:b;
+}
+.item-3{
+    background-color: rgb(9, 169, 222);
+    grid-area:c;
+}
+.item-4{
+    background-color: rgb(241, 21, 190);
+    grid-area:d;
+}
+.item-5{
+    background-color: rgb(246, 7, 198);
+    grid-area:e;
+}
+.item-6{
+    background-color: rgb(227, 11, 187);
+    grid-area:f;
+}
+.item-7{
+    background-color: rgb(238, 10, 189);
+    grid-area:g;
+}
+.item-8{
+    background-color: rgb(246, 9, 203);
+    grid-area:h;
+}
+.item-9{
+    background-color: rgb(246, 9, 187);
+    grid-area:i;
+}

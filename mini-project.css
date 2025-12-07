@@ -1,0 +1,30 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    font-family:"Roboto", sans-serif;
+    border: 2px solid black;
+}
+html,body{
+    height:100%;
+
+}
+
+.container1{
+    width:100%;
+    border:2px solid black;
+
+}
+.container{
+    width:50%;
+    border: 2px solid black;
+    margin:60px;
+    display:flex;
+    padding:30px;
+    gap:5px;
+    justify-content:center;
+}
+.form-container{
+    border:2px solid black;
+
+}

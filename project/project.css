@@ -1,0 +1,259 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Inconsolata", sans-serif;
+}
+html,body{
+    height:100%;
+   
+}
+
+.nav-container{
+    width:100%;
+    background-color: black;
+    display:flex;
+    justify-content: space-around;
+    color:white;
+    padding:5px;
+    gap:5px;
+    position:fixed;
+    top:0px;
+    z-index: +1;
+}
+.item{
+    width:100%;
+    padding:5px;
+    text-align:center;
+}
+.item:hover{
+    background-color:whitesmoke;
+    cursor:pointer;
+    color:black;
+    transition: all 0.8 ease;
+}
+.bg-container{ 
+    width:100%;
+    height:74%;
+    background-image: url("https://www.w3schools.com/w3images/coffeehouse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(50%);
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    position:relative;
+
+}
+.text-container{
+    font-size: 6rem;
+    text-align: center;
+    color:white;
+    line-height: 120px;
+
+}
+.text-container-1{
+    position: absolute;
+    bottom:5px;
+    left:5px;
+    font-size: 1rem;
+    background-color: black;
+    color:white;
+    padding:5px;
+}
+.text-container-2{
+    position:absolute;
+    bottom:0;
+    right:0;
+    font-size:1rem;
+    color: white;
+}
+.main{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    background-color: whitesmoke;
+
+}
+.main>.main-container{
+    text-align: center;
+    width: 50%;
+   
+}
+.about-container{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.about-container>p{
+    background-color: black;
+    padding:5px;
+    color: white;
+    width: 200px;
+    text-align: center;
+}
+.para-container{
+    text-align: justify;
+    margin:10px 0px;
+}
+.para-container-1{
+    margin:40px 0px;
+    text-align: justify;
+}
+.chef-container{
+    background-color: rgba(0, 255, 255, 0.211);
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: rgba(165, 154, 154, 0.596);
+    padding:10px;
+    margin-bottom: 20px;
+}
+.chef-container>p{
+    margin:20px 0px;
+    text-align: start;
+}
+.image-container>img{
+    width:100%;
+    filter:grayscale(50%);
+    
+}
+.text-container-3>p{
+    margin:20px 0px;
+    text-align: start;
+
+}
+.menu-container{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+
+}
+.menu-container>p{
+    background-color: black;
+    padding:5px;
+    color: white;
+    width: 200px;
+    text-align: center;
+}
+.eat-container>h4,p{
+    margin:20px 0px;
+    margin-left: 10px;
+}
+.eat-container,.drink-container{
+    display:none;
+    padding:20px;
+    width:100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    text-align: left;
+}
+.drink-container>h4,p{
+    margin:20px 0px;
+    margin-left: 10px;
+}
+.btn-container{
+    display:flex;
+    justify-content:space-around;
+    text-align: center;
+    width:100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+      
+}
+.btn-container>label{
+    display:inline-block;
+    width:300px;
+    padding:10px;
+    background-color:grey;
+    color:white;
+    
+    
+}
+.btn-container>label:hover{
+    cursor:pointer;
+    background-color:white;
+    color:black;
+}
+#eat,#drink{
+    display:none;
+
+}
+#eat:checked~.eat-container{
+    display:inline-block;
+}
+#drink:checked~.drink-container{
+    display:inline-block;
+}
+.image-container-1>img{
+    width:100%;
+    filter:grayscale(50%);
+}
+.image-container-2>img{
+      width:100%;
+    filter:grayscale(50%);
+
+}
+.where-container{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+
+}
+.where-container>p{
+    background-color: black;
+    padding:5px;
+    color: white;
+    width: 200px;
+    text-align: center;
+
+}
+.text-container-4>p{
+    margin:10px;
+    text-align: start;
+}
+.text-container-5>p{
+    margin-top: 20px;
+    text-align: justify;
+}
+.text-container-5>p>span{
+    background-color: black;
+    color:white;
+    
+}
+.form-container>input{
+    width:100%;
+    margin:10px 0px;
+    padding:20px;
+    
+}
+.input-btn>input{
+    background-color: black;
+    width:fit-content;
+    color:white;
+    font-size:medium;
+    margin:10px;
+    letter-spacing: 2px; 
+   
+
+}
+.input-btn>input:hover{
+    background-color: rgb(212, 245, 213);
+    color:black;
+    cursor:pointer
+}
+.footer-container{
+    width:100%;
+    height:200px;
+    background-color:rgba(234, 232, 232, 0.895);
+    display:flex;
+    justify-content: center;
+    
+}
+.footer-container>p{
+    text-align: center;
+    margin-top:40px;
+    
+    
+    
+}

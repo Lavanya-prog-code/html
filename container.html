@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* Main container */
+    .main-container {
+      width: 80%;
+      margin:2px;
+      padding: 20px;
+      border: 2px solid #333;
+      border-radius: 10px;
+      height: 500px;
+    }
+
+    /* Sub-containers */
+    .first-images-container,
+    .second-images-container {
+      display: flex;
+      justify-content: space-around;
+      padding: 15px;
+      border: 2px solid #666;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      height:200px;
+    }
+
+    /* Item containers (circle images) */
+    .item-container {
+      width: 120px;
+      height: 120px;
+      border: 2px solid #000;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      text-align: center;
+      
+    }
+    .img{
+        width:20px;
+        height:15px;
+    }
+    </style>
+</head>
+<body>
+  <div class="main-container">
+    
+    <!-- First row -->
+    <div class="first-images-container">
+      <div class="item-container"><img src="">
+       <p>fruits</p></div>
+      <div class="item-container"><img src="https://stock.adobe.com/in/search?k=single+fruit&asset_id=1417463012">
+    <p>fruits</p></div>
+      <div class="item-container"><img src="https://stock.adobe.com/in/search?k=single+fruit&asset_id=1417463012">
+    <p>fruits</p></div>
+      <div class="item-container"><img src="https://stock.adobe.com/in/search?k=single+fruit&asset_id=1417463012">
+    <p>fruits</p></div>
+    </div>
+
+    <!-- Second row -->
+    <div class="second-images-container">
+      <div class="item-container"><img src=""><p>fruits</p></div>
+      <div class="item-container"><img src=""><p>fruits</p></div>
+      <div class="item-container"><img src=""><p>fruits</p></div>
+      <div class="item-container"><img src="">
+    <p>fruits</p></div>
+    </div>
+</body>
+</html>

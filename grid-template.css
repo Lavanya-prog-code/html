@@ -1,0 +1,51 @@
+.container{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    height:100vh;
+    gap:10px;
+    background-color: black;
+    grid-template-areas:
+    "a b b c "
+    "a d e f "
+    "a g h f "
+    
+
+}
+.item{
+    padding:10px;
+    font-size:2rem;
+    text-align:center;
+    
+}
+.item-1{
+    background-color: rgb(11, 214, 35);
+    grid-area:a;
+}
+.item-2{
+    background-color: rgb(11, 227, 36);
+    grid-area:b;
+}
+.item-3{
+    background-color: rgb(231, 12, 12);
+    grid-area:c;
+}
+.item-4{
+    background-color: rgb(212, 234, 15);
+    grid-area:d;
+}
+.item-5{
+    background-color: rgb(246, 11, 7);
+    grid-area:e;
+}
+.item-6{
+    background-color: rgb(87, 227, 11);
+    grid-area:f;
+}
+.item-7{
+    background-color: rgb(238, 25, 10);
+    grid-area:g;
+}
+.item-8{
+    background-color: rgb(222, 246, 9);
+    grid-area:h;
+}
